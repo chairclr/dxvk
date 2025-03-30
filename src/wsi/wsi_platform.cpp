@@ -34,7 +34,7 @@ namespace dxvk::wsi {
 #if defined(DXVK_WSI_WIN32)
         hint = "Win32";
 #else
-        throw DxvkError("DXVK_WSI_DRIVER environment variable unset");
+        hint = "SDL3";
 #endif
     }
 
